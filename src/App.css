@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+/* Resets */
+*{
+  box-sizing: border-box;
+}
+ul,ol {
+  padding: 0;
+}
+li {
+  list-style-type:none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  font-family: Nunito;
+  margin: 0;
+  background-color: #eee;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navigation */
+nav{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #4e73df;
+  color: #fff
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-nav li,
+.user li {
+  margin: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-nav li:first-child {
+  font-weight: bold;
 }
+
+.user img {
+  width: 30px;
+  border-radius: 90%;
+  margin-left: 10px;
+}
+
+h1,h2 {
+  font-weight: 400;
+}
+
+h1,
+main {
+  padding: 0 30px;
+}
+
+/* Top data */
+.top-data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #666;
+}
+.data-detail {
+  width: 32%;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.data-detail p {
+  margin-top:0;
+}
+.data-detail h4 {
+  margin-bottom: 0;
+}
+
+/* Categorías */
+.general-data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px 20px 10px 20px;
+  gap: 10px;
+}
+.general-data .card {
+  width: 32%;
+  border-radius: 4px;
+  background-color: #36b9cc;
+  margin-bottom: 10px;
+  padding: 0 20px;
+  color: #fff;
+}
+
+/* footer */
+
