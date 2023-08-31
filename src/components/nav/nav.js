@@ -1,4 +1,5 @@
 import logo from "./logo.png" //pusimos la imagen, linea 6 tambien, logo linea 1 = linea 6//
+import "./nav.css"
 function Nav() {
     return (
         <nav>

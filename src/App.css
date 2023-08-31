@@ -15,25 +15,21 @@ a {
 body {
   font-family: Nunito;
   margin: 0;
-  background-color: #eee;
+  background-color: black;
 }
 
 /* Navigation */
-nav{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 20px;
-  background-color: #4e73df;
-  color: #fff
-}
+
 
 nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.titulo{
+  color: white;
 }
 
 .main-nav li,
@@ -75,7 +71,7 @@ main {
 .data-detail {
   width: 32%;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: palevioletred;
   padding: 10px 30px;
   text-transform: capitalize;
   display: flex;
@@ -104,10 +100,19 @@ main {
 .general-data .card {
   width: 32%;
   border-radius: 4px;
-  background-color: #36b9cc;
+  background-color: pink;
   margin-bottom: 10px;
   padding: 0 20px;
   color: #fff;
+}
+/* detalle */
+#detalle {
+  background-color: teal;
+  padding: 20px;
+  display: flex; 
+  color: white;
+  gap: 20px;
+  width: 90%;
 }
 
 /* footer */

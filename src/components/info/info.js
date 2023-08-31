@@ -3,7 +3,7 @@ function Info() {
     return (
         <div className= "info">
             <div>
-                <img width="75px" src="https://marketplace.canva.com/EAEl_zgUqNo/1/0/1600w/canva-portada-para-album-de-musica-tornasol-y-moderna-tptgzoFo0LQ.jpg"/>
+                <img width="75px" src="https://lastfm.freetls.fastly.net/i/u/300x300/e142cc55c1431b10fd745b2fa760f28d.jpg"/>
             </div>
             <div>
                 <h3>Maluma</h3>

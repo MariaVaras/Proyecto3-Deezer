@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: green;
+  color: white;
+}
+
