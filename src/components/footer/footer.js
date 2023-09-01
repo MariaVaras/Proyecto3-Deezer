@@ -3,7 +3,7 @@ function Footer() {
     return (
         <footer>
            <p>
-               Maria Varas 
+              Federico Vitale, Maria Varas, Alejo Corti 
            </p>
  </footer>
   );
