@@ -1,6 +1,4 @@
-import Nav from '../components/nav/nav'; 
 import '../App.css';
-import Footer from '../components/footer/footer';
 import Info from '../components/info/info';
 
 function Categorias() {
@@ -9,7 +7,6 @@ function Categorias() {
     
     return (
         <div>
-          <Nav></Nav>
         <h1 className="titulo" >Categorias</h1>
         <main>
             <section className="top-data">
@@ -28,7 +25,6 @@ function Categorias() {
                 
             </section>
         </main>
-       <Footer/> 
         </div>
     
       );

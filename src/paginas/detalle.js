@@ -1,15 +1,10 @@
-import Nav from '../components/nav/nav'; 
 import '../App.css';
-import Footer from '../components/footer/footer';
-import Info from '../components/info/info';
-
 function Detalle() {
     
     const categories = ['peliculas', 'musica', 'series','comida', 'hola']
     
     return (
         <div>
-          <Nav></Nav>
         <h1 className="titulo" >Detalle</h1>
         <main>
             <section className="top-data">
@@ -30,7 +25,6 @@ function Detalle() {
                 </div>
             </section>
         </main>
-       <Footer/> 
         </div>
     
       );
