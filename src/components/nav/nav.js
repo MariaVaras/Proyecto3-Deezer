@@ -8,7 +8,6 @@ function Nav() {
                 <li key={1}><img width="50px " src={logo}/></li> 
                 <li key={2}> <Link to="/home">Home</Link></li>
                 <li key={3}> <Link to="/categorias">Categorias</Link></li>
-                <li key={4}>Playlist</li>
             </ul>
             <ul className="user">
                 <li key={1}>Nombre usuario <img src="./img/user.jpg" alt=""/></li>
